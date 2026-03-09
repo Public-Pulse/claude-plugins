@@ -6,9 +6,9 @@ AI-powered development tools that get smarter with every use. Make each unit of 
 
 | Component | Count |
 |-----------|-------|
-| Agents | 29 |
-| Commands | 22 |
-| Skills | 20 |
+| Agents | 28 |
+| Commands | 21 |
+| Skills | 17 |
 | MCP Servers | 1 |
 
 ## Agents
@@ -119,6 +119,7 @@ Core workflow commands use `workflows:` prefix to avoid collisions with built-in
 |-------|-------------|
 | `andrew-kane-gem-writer` | Write Ruby gems following Andrew Kane's patterns |
 | `compound-docs` | Capture solved problems as categorized documentation |
+| `compound-audit` | Audit solutions for unpromoted learnings |
 | `compound-rules` | Promote institutional learnings into .claude/rules/ files |
 | `create-agent-skills` | Expert guidance for creating Claude Code skills |
 | `dhh-rails-style` | Write Ruby/Rails code in DHH's 37signals style |

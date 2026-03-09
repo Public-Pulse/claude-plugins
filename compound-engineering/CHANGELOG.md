@@ -5,6 +5,14 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.36.0] - 2026-03-09
+
+### Added
+
+- **`compound-audit` skill** -- Scan `docs/solutions/` to find learnings not yet promoted to `.claude/rules/*.md`. Classifies each solution as covered, partially covered, promotable, or not promotable. Routes to `/compound-rules` for individual promotions.
+
+---
+
 ## [2.35.0] - 2026-03-09
 
 ### Added
