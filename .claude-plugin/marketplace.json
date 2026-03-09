@@ -1,0 +1,16 @@
+{
+  "name": "public-pulse-plugins",
+  "owner": {
+    "name": "Public Pulse"
+  },
+  "metadata": {
+    "description": "In-repo Claude Code plugins for the Public Pulse team"
+  },
+  "plugins": [
+    {
+      "name": "compound-engineering",
+      "source": "./compound-engineering",
+      "description": "AI-powered development tools customized for React/TypeScript/Supabase stack"
+    }
+  ]
+}
