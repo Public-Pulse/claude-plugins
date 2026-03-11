@@ -5,6 +5,20 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.37.0] - 2026-03-11
+
+### Added
+
+- **Color labels for all agents and meta-AI skills** — Visual identification in the CLI via `color:` frontmatter field. Color scheme: green (review), cyan (research), blue (workflow), purple (design), orange (meta-AI tooling), yellow (lint), violet (design-iterator).
+- **`ai-quality.md` placement** — `compound-rules` placement guide now routes skill/rule/hook authoring learnings to the new `ai-quality.md` rule file.
+
+### Changed
+
+- **Meta-AI skills marked orange** — `compound-rules`, `compound-audit`, `compound-docs`, `create-agent-skills`, `skill-creator` all have `color: orange` for consistent meta-AI tooling identification.
+- **24 agents now have `color:` frontmatter** — Previously only 4/28 agents had colors. Now all 28 are labeled by category.
+
+---
+
 ## [2.36.0] - 2026-03-09
 
 ### Added

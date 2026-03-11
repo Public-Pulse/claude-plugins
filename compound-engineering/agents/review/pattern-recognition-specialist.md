@@ -2,6 +2,7 @@
 name: pattern-recognition-specialist
 description: "Analyzes code for design patterns, anti-patterns, naming conventions, and duplication. Use when checking codebase consistency or verifying new code follows established patterns."
 model: inherit
+color: green
 ---
 
 <examples>

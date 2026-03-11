@@ -2,6 +2,7 @@
 name: tanstack-query-reviewer
 description: "Reviews TanStack Query usage for correctness, performance, and patterns. Checks query keys, cache invalidation, mutations, optimistic updates, and data fetching patterns. Use when PRs modify hooks or data fetching logic."
 model: inherit
+color: green
 ---
 
 <examples>

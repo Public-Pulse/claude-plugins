@@ -2,6 +2,7 @@
 name: julik-frontend-races-reviewer
 description: "Reviews JavaScript and Stimulus code for race conditions, timing issues, and DOM lifecycle problems. Use after implementing or modifying frontend controllers or async UI code."
 model: inherit
+color: green
 ---
 
 <examples>

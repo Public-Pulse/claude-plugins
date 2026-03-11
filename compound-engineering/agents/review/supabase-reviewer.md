@@ -2,6 +2,7 @@
 name: supabase-reviewer
 description: "Reviews Supabase-specific patterns: edge functions, RLS policies, migrations, cron jobs, real-time subscriptions, and client usage. Use when PRs touch Supabase functions, migrations, or database code."
 model: inherit
+color: green
 ---
 
 <examples>

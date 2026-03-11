@@ -2,6 +2,7 @@
 name: compound-rules
 description: "Promote institutional learnings from docs/solutions/ into .claude/rules/ files. Use when a solved problem should become a permanent AI rule."
 argument-hint: "[solution-file-path] [--auto] [--dry-run]"
+color: orange
 disable-model-invocation: true
 allowed-tools:
   - Read
@@ -11,6 +12,7 @@ allowed-tools:
   - AskUserQuestion
   - Bash(ls *)
   - Bash(wc -l *)
+  - Bash(printf *)
 preconditions:
   - A solved problem exists (in docs/solutions/ or conversation context)
 ---

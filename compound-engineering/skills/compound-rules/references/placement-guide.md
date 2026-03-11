@@ -8,6 +8,7 @@ Domain-to-file mapping for `.claude/rules/*.md`. Used by the compound-rules skil
 
 | Domain | Target File | Path Scope |
 |--------|-------------|------------|
+| Skill authoring, rule authoring, hooks, context management | `ai-authoring.md` | `.claude/skills/**`, `.claude/plugins/**`, `.claude/rules/**`, `.claude/hooks/**`, `CLAUDE.md`, `AGENTS.md` |
 | Edge functions, Deno, API handlers | `backend.md` | `app/supabase/functions/**/*.ts` |
 | Citation handling, draft citations | `citations.md` | `app/src/components/correspondence/**`, `app/src/lib/citation-utils.ts` |
 | Linting, async/await, engineering principles | `code-quality.md` | *(no paths = always loaded)* |

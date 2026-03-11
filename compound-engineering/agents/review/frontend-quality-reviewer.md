@@ -2,6 +2,7 @@
 name: frontend-quality-reviewer
 description: "Reviews frontend code for responsive design, dark mode compliance, and accessibility patterns. Checks for hardcoded colors, missing dark variants, focus indicators, Dialog accessible names, and icon button labels. Use when PRs touch .tsx or .css files."
 model: inherit
+color: green
 ---
 
 <examples>

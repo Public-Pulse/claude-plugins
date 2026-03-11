@@ -2,6 +2,7 @@
 name: compound-audit
 description: "Audit docs/solutions/ to find learnings not yet promoted to .claude/rules/. Use to discover which solved problems should become permanent AI rules."
 argument-hint: "[--verbose]"
+color: orange
 disable-model-invocation: true
 allowed-tools:
   - Read

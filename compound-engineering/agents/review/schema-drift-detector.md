@@ -2,6 +2,7 @@
 name: schema-drift-detector
 description: "Detects migration drift in Supabase projects. Checks for forbidden patterns (CONCURRENTLY, large backfills in migrations), validates naming conventions, and ensures RLS compliance. Use when PRs include SQL migration files."
 model: inherit
+color: green
 ---
 
 <examples>
